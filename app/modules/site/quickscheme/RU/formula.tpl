@@ -1,0 +1,1 @@
+( %sbn% %ub%) x %count%раз %dop%

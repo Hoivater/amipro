@@ -1,0 +1,427 @@
+.codeami{
+	background: #263238;
+	border-radius:10px;
+	padding:10px;
+	color:#B2CCD6;
+	/*font-size: 110%;*/
+	white-space:pre-wrap;
+	position: relative;
+}
+img.copyright{
+	position: absolute;
+    top: 0px;
+    right: 40%;
+    opacity: 0.3;
+    width:300px;
+}
+img.copyright2{
+	position: absolute;
+    bottom: 0px;
+    right: 40%;
+    opacity: 0.3;
+    width:300px;
+}
+img.copyright3{
+	position: absolute;
+    bottom: 0px;
+    right: 40%;
+    opacity: 0.3;
+    width:200px;
+}
+
+/**************************************BLACK*****************************************************/
+.num{
+	font-size: 95%;
+	color:#B2CCD6;
+}
+.word_combination{
+	font-weight:normal;
+	font-size:105%;
+	color:#3F7BE8;
+}
+.inc{
+	font-weight:normal;
+	font-size:110%;
+	color:#0BD600;	
+}
+.reduce{
+	font-size:110%;
+	font-weight: normal;
+	color:#EB4C42;
+}
+.summa_rows{
+	color:#F78C5D;
+	font-weight: normal;
+	margin-left:15px;
+}
+.sbn{
+	color:#FA00E9;
+	font-weight:normal;
+	font-size:100%;
+}
+.ss2n{
+	color:#C24BFF;
+	font-weight:normal;
+	font-size:100%;
+}
+.ss3n{
+	color:#C200E9;
+}
+.ssn{
+color:#FA00E9;
+}
+.vp{
+color:#FFEF49;
+}
+.ss{
+color:#FF38E8;
+}
+.comment{
+color:#D1B3FF;
+}
+.name_shema{
+	color:#0BD61D;
+	font-size:130%;
+}
+.shem{
+	background: #F8F9FA;
+	border-radius:10px;
+	border:1px solid #D2D3D4;
+	padding-bottom: 0px;
+}
+.break{
+	color:#9BD489;
+	font-weight:normal;
+	font-size:130%;
+}
+.xsymbol{
+	color:#9BD489;
+	font-weight:bold;
+	font-size:100%;
+}
+.summa{
+	color:#FFD489;
+	font-weight:normal;
+	font-size:100%;
+}
+.num_rowse{
+	color: #0BD61D;
+}
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+/**************************************WHITE*****************************************************/
+.codeamiWHITE{
+	background: #FFFFFF;
+	border-radius:10px;
+	padding:10px;
+	color:#B2CCD6;
+	/*font-size: 110%;*/
+	white-space:pre-wrap;
+	position: relative;   
+}
+.numWHITE{
+	font-size: 95%;
+	color:#161208;
+}
+.word_combinationWHITE{
+	font-weight:normal;
+	font-size:105%;
+	color:#408837;
+}
+.incWHITE{/*прибавка*/
+	font-weight:normal;
+	font-size:110%;
+	color:#408837;	
+}
+.reduceWHITE{/*убавка*/
+	font-size:110%;
+	font-weight: normal;
+	color:#C23390;
+}
+.summa_rowsWHITE{
+	color:#F78C5D;
+	font-weight: normal;
+	margin-left:15px;
+}
+.sbnWHITE{
+	color:#C233DE;
+	font-weight:normal;
+	font-size:100%;
+}
+.ss2nWHITE{
+	color:#9D2084;
+	font-weight:normal;
+	font-size:100%;
+}
+.ss3nWHITE{
+	color:#9D2084;
+}
+.ssnWHITE{
+color:#9D2084;
+}
+.vpWHITE{
+color:#057C00;
+}
+.ssWHITE{
+color:#885A04;
+}
+.commentWHITE{/*КОММЕНТАРИЙ*/
+color:#9D1D00;
+font-style:italic;
+}
+.name_shemaWHITE{/*НАЗВАНИЕ СХЕМЫ*/
+	color:#408837;
+	font-size:130%;
+}
+.shemWHITE{
+	background: #F8F9FA;
+	border-radius:10px;
+	border:1px solid #D2D3D4;
+	padding-bottom: 0px;
+}
+.breakWHITE{/* ( ) 6 раз*/
+	color:#253EFE;
+	font-weight:normal;
+	font-size:110%;
+}
+.xsymbolWHITE{
+	color:#253EFE;
+	font-weight:bold;
+	font-size:100%;
+}
+.summaWHITE{
+	color:#131A8E;
+	font-weight:normal;
+	font-size:100%;
+}
+.num_rowseWHITE{/*НОМЕР СТРОКИ*/
+	color: #161208;
+}
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+/**************************************style1 светлый монохромQ****************************************/
+.codeamiWHITE1{
+	background: #FFFFFF;
+	border-radius:10px;
+	padding:10px;
+	color:#B2CCD6;
+	/*font-size: 110%;*/
+	white-space:pre-wrap;
+	position: relative;   
+}
+
+.numWHITE1{
+	font-size: 95%;
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.word_combinationWHITE1{
+	font-weight:normal;
+	font-size:105%;
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.incWHITE1{/*прибавка*/
+	font-weight:normal;
+	font-size:110%;
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.reduceWHITE1{/*убавка*/
+	font-size:110%;
+	font-weight: normal;
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.summa_rowsWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+
+	font-weight: normal;
+	margin-left:15px;
+}
+.sbnWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:100%;
+}
+.ss2nWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:100%;
+}
+.ss3nWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.ssnWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.vpWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.ssWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.commentWHITE1{/*КОММЕНТАРИЙ*/
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+.name_shemaWHITE1{/*НАЗВАНИЕ СХЕМЫ*/
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+	font-size:130%;
+}
+.shemWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+	border-radius:10px;
+	border:1px solid #D2D3D4;
+	padding-bottom: 0px;
+}
+.breakWHITE1{/* ( ) 6 раз*/
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:110%;
+}
+.xsymbolWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+	font-weight:bold;
+	font-size:100%;
+}
+.summaWHITE1{
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:100%;
+}
+.num_rowseWHITE1{/*НОМЕР СТРОКИ*/
+	color:#04003e;
+    font-family: 'Balsamiq Sans';
+}
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+/**************************************style1 темный монохромQ****************************************/
+.codeamiBLACK1{
+	background: #263238;
+	border-radius:10px;
+	padding:10px;
+	color:#B2CCD6;
+	/*font-size: 110%;*/
+	white-space:pre-wrap;
+	position: relative;   
+}
+
+.numBLACK1{
+	font-size: 95%;
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.word_combinationBLACK1{
+	font-weight:normal;
+	font-size:105%;
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.incBLACK1{/*прибавка*/
+	font-weight:normal;
+	font-size:110%;
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.reduceBLACK1{/*убавка*/
+	font-size:110%;
+	font-weight: normal;
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.summa_rowsBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+    
+	font-weight: normal;
+	margin-left:15px;
+}
+.sbnBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:100%;
+}
+.ss2nBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:100%;
+}
+.ss3nBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.ssnBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.vpBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.ssBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.commentBLACK1{/*КОММЕНТАРИЙ*/
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+.name_shemaBLACK1{/*НАЗВАНИЕ СХЕМЫ*/
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+	font-size:130%;
+}
+.shemBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+	border-radius:10px;
+	border:1px solid #D2D3D4;
+	padding-bottom: 0px;
+}
+.breakBLACK1{/* ( ) 6 раз*/
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:110%;
+}
+.xsymbolBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+	font-weight:bold;
+	font-size:100%;
+}
+.summaBLACK1{
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+	font-weight:normal;
+	font-size:100%;
+}
+.num_rowseBLACK1{/*НОМЕР СТРОКИ*/
+	color:#FBFFC1;
+    font-family: 'Balsamiq Sans';
+}
+/*---------------------------------------------------------------------------------*/
