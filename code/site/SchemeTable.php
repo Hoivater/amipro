@@ -75,6 +75,43 @@
 		}
 
 
+		protected function LimbRedaction($link, $auth = "noauth")#сборщик страницы
+		{
+			$limb = new Worker\Limb();
+
+			$si = new Base\SearchInq($this -> name);
+			$si -> selectQ();
+			$si -> whereQ("link", $link, "=");
+			$si -> orderDescQ();
+			$result = $si -> resQ();  //массив со всеми записями
+			$resultn = $this -> Decoder($result);
+			$foto_array = self::FotoArray($resultn[0]["setting_b"]);
+			if(isset($result[0]["id"])){
+
+				$template = [
+								"norepeat" => ["%title%", "%name%"],
+								"internal" => [
+							                ["name" => "content", "folder" => "scheme/redaction"]
+							         ],
+								"repeat_tm" => ["fotoone"]
+							];
+					$data = [
+							        "norepeat" => ["title" => "Главная страница", "name" => "Перечень"],
+							        "internal" => [$resultn],
+							        "repeat_tm" => [$foto_array]
+							];
+
+
+				$render = $limb -> TemplateMaster($template, $data, $auth, $this -> html);
+			}
+			else
+			{
+				header("Location:/");
+				exit();
+			}
+			return $render;
+		}
+
 		protected function Limb($link, $auth = "noauth")#сборщик страницы
 		{
 			$limb = new Worker\Limb();
@@ -163,6 +200,7 @@
 		{
 			for ($i=0; $i <= count($data)-1 ; $i++) {
 				$data[$i]["date"] = Base\control\Necessary::ConvertDate($data[$i]["date_creation"]);
+				$data[$i]["schemes"] = $data[$i]["scheme"];
 				$data[$i]["scheme"] = $this -> LittleScheme($data[$i]["scheme"]);
 			}
 

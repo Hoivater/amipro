@@ -91,8 +91,16 @@ class Route
 					$this -> forms = true;
 					if(isset($route_arr[1]) &&  $this -> auth == true)
 					{
-						$html = new LimbSite\SchemePage();
-						$html -> Page($route_arr[1]);
+						if($route_arr[1] == "redaction" &&  $this -> auth == true)
+						{
+							$html = new LimbSite\SchemePage();
+							$html -> PageRedaction($route_arr[2]);
+						}
+						else{
+							$html = new LimbSite\SchemePage();
+							$html -> Page($route_arr[1]);	
+						}
+						
 					}
 					else{
 						header("Location: /");

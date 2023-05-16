@@ -142,3 +142,7 @@
 	margin:0 auto;
 	text-align: center;
 }
+
+#floatingTextarea{
+	height: 400px;
+}

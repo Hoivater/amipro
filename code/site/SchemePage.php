@@ -31,6 +31,15 @@
 			$auth = Base\Control\Control::IsRules();
 			$this -> page = $this -> Limb($link, $auth);
 		}
+		public function PageRedaction($link)
+		{
+			if(!isset($_SESSION))
+			{
+				session_start();
+			}
+			$auth = Base\Control\Control::IsRules();
+			$this -> page = $this -> LimbRedaction($link, $auth);
+		}
 
 	}
 ?>
